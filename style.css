@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
 :root {
-     --primary-color: #164e63;
-    --button-color: #cbd5e1;
+     --primary-color: #9A86A4;
+    --button-color: #B1BCE6;
     --background-light: #f8fafc;
     --input-text-color:#3D550C;
 }
@@ -18,6 +18,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-light);
+}
+input{
+    font-family: inherit;
 }
 
 p {
@@ -50,6 +53,7 @@ h1 {
 
 
 .navigation {
+    height: 110px;
     background-color: var(--primary-color);
     padding: 15px;
     border-top: 50px;
@@ -106,6 +110,7 @@ h1 {
 }
 
 button {
+    cursor: pointer;
     font-family: 'Carter One', cursive;
     font-weight: 600;
     background-color: var(--button-color);
@@ -123,13 +128,6 @@ h2 {
     padding: 2px;
 }
 
-/* footer css */
-footer {
-    height: 100px;
-    text-align: center;
-    padding: 40px;
-}
-
 #question-bank {
     margin: 1rem auto;
     max-width: 600px;
@@ -144,17 +142,26 @@ footer {
     padding: 10px;
 }
 
-footer li {
+
+footer{
+    text-align: center ;
+    color: var(--background-light);
+    background-color: var(--primary-color);
+    padding: 10px;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 110px;
+}
+
+li {
+    margin: 10px;
     padding: 5px;
     display: inline;
     list-style: none;
 }
 
-footer a {
+footer div,.link {
     text-decoration: none;
-}
-
-footer ul {
-    padding: 3px;
-    display: inline;
+    color:var(--background-light);
 }

@@ -10,4 +10,4 @@
 * JavaScript
 
 ## Live Project
-[FunWithTriangle]()
+[FunWithTriangle](https://funwithtriangles-m12.netlify.app/)
