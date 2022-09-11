@@ -10,7 +10,7 @@ function calculateAreaclickHandler(){
     var heightValue = height.value;
 
     var area=0
-    if( baseValue <= 0 || height <= 0 || baseValue == '' || heightValue == '') 
+    if( baseValue <= 0 || heightValue <= 0 || baseValue == '' || heightValue == '') 
     {
         areaOutput.classList.add("output-err");
         areaOutput.innerText="Enter valid inputs to calculate area of triangle";
