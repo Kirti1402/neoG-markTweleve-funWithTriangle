@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+:root {
+     --primary-color: #164e63;
+    --button-color: #cbd5e1;
+    --background-light: #f8fafc;
+    --input-text-color:#3D550C;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-light);
+}
+
+p {
+    text-align: center;
+    padding: 6px;
+}
+
+h2,h3,h4 {
+    margin: 15px;
+    text-align: center;
+}
+
+.output-err{
+    color: red;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.non-bullets {
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+.navigation {
+    background-color: var(--primary-color);
+    padding: 15px;
+    border-top: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.nav-brand {
+    font-weight: bolder;
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .active {
+    font-weight: bold;
+}
+
+.link {
+    display: inline-block;
+    border-radius: 50px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+label {
+    color: var(--input-text-color);
+    margin: 0.5rem 0 0.5rem;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+
+}
+
+.User-input {
+
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    display: block;
+    margin: 20px auto;
+}
+
+button {
+    font-family: 'Carter One', cursive;
+    font-weight: 600;
+    background-color: var(--button-color);
+    margin: 2rem auto;
+    display: block;
+    margin: auto;
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 10px;
+    text-align: center;
+    padding: 2px;
+}
+
+/* footer css */
+footer {
+    height: 100px;
+    text-align: center;
+    padding: 40px;
+}
+
+#question-bank {
+    margin: 1rem auto;
+    max-width: 600px;
+    text-align: center;
+    /* padding: 3px; */
+}
+
+#question-bank label {
+    display: inline;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+footer li {
+    padding: 5px;
+    display: inline;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    padding: 3px;
+    display: inline;
+}
