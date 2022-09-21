@@ -19,7 +19,7 @@ function calculateAreaclickHandler(){
         var mulBH=baseValue * heightValue;
         area=(1/2) * mulBH;
         areaOutput.classList.remove("output-err");
-        areaOutput.innerText="Area of a triangle "+ area + " units";
+        areaOutput.innerText="Area of a triangle "+ area.toFixed(2) + " units";
     }
 }
 

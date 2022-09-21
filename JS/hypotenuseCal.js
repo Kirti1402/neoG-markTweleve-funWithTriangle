@@ -16,7 +16,7 @@ function calculateClickHandler(){
     }else {
         hypotenuse=Math.sqrt((Math.pow(baseValue,2)+Math.pow(heightValue,2)));
         output.classList.remove("output-err");
-        output.innerText=("The length of Hypontenuse is "+hypotenuse);
+        output.innerText=("The length of Hypontenuse is "+hypotenuse.toFixed(2));
     }
 
 }
